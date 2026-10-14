@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-12-phone-2",
+  "version": "2026-10-14-phone-5",
   "files": [
     "airplane-image.webp",
     "bee-image.png",
@@ -242,6 +242,8 @@
     "voice-31.mp3",
     "voice-32.mp3",
     "voice-33.mp3",
-    "voice-34.mp3"
+    "voice-34.mp3",
+    "mame-i-bebe.mp4",
+    "mame-i-bebe-poster.jpg"
   ]
 }
