@@ -7,7 +7,7 @@ Android: Chrome menu > Install app / Add to Home screen.
 iPhone/iPad: Safari > Share > Add to Home Screen.
 Open the game from its new home-screen icon.
 Inside the game, open Za roditelje > Preuzmi za rad bez interneta.
-Keep the app open until it confirms all files are downloaded. The first download is about 37 MB.
+Keep the app open until it confirms all files are downloaded. The first download is about 44 MB.
 
 This update includes every new installation file. It does not repeat the existing media.
 
@@ -28,6 +28,9 @@ IN-APP UPDATE NOTICE
 When the app opens, resumes or reconnects, the browser checks for a new service worker. A downloaded release shows Dostupna je nova verzija Bukvara, with Azuriraj and Kasnije. Updating preserves locally saved progress and existing offline media. No third-party account or push permission is required for this notice. Closed apps do not receive an alert. Users first need this version installed; future releases must change VERSION in sw.js and use the same version in offline-assets.json. Publish index.html, sw.js and offline-assets.json together and wait for GitHub Pages deployment.
 
 BRIGHT ROUND OWL ICON
-Updated desktop icon uses a circular badge with transparent corners. Android maskable and Apple touch icons use an opaque turquoise background so the operating system can crop safely. New versioned icon filenames help devices discover the change. Upload all11 files. Existing installed shortcuts may take time to refresh their icons; the operating system controls the final outer shape.
+Updated desktop icon uses a circular badge with transparent corners. Android maskable and Apple touch icons use an opaque turquoise background so the operating system can crop safely. New versioned icon filenames help devices discover the change. Upload all12 files. Existing installed shortcuts may take time to refresh their icons; the operating system controls the final outer shape.
 
 The app title/status bar theme is restored to the original purple (#77638f). The bright circular owl icons are unchanged.
+
+READ ASSIGNMENTS ALOUD
+Procitaj buttons read interactive assignment instructions, quiz questions and crossword clues with the same Serbian female Sophie voice as the stories. Recordings are included in assignment-voice-v1.mp3; the app needs no device voice or microphone permission. Download all offline content again to add this new audio file. Existing cached media is reused. The update now contains12 files. Scan-only text inside original book page images is not automatically transcribed; the book editor instructions have a reading button.
