@@ -29,3 +29,5 @@ When the app opens, resumes or reconnects, the browser checks for a new service 
 
 BRIGHT ROUND OWL ICON
 Updated desktop icon uses a circular badge with transparent corners. Android maskable and Apple touch icons use an opaque turquoise background so the operating system can crop safely. New versioned icon filenames help devices discover the change. Upload all11 files. Existing installed shortcuts may take time to refresh their icons; the operating system controls the final outer shape.
+
+The app title/status bar theme is restored to the original purple (#77638f). The bright circular owl icons are unchanged.
