@@ -10,3 +10,8 @@ Inside the game, open Za roditelje > Preuzmi za rad bez interneta.
 Keep the app open until it confirms all files are downloaded. The first download is about 33 MB.
 
 This update includes every new installation file. It does not repeat the existing media.
+
+NOTIFICATIONS AND PERFORMANCE UPDATE
+Parents can enable notifications in Za roditelje > Obavestenja i dozvole. The browser requires consent. No automatic permission bypass is possible. Camera, microphone and location are never requested; controlled app pages deny their use with a Permissions-Policy header. Existing phone/browser switches are user-controlled.
+Notifications currently cover offline-download completion and the test button. No closed-app scheduled reminder service is configured.
+Voice clips load only on listening; asset data is parsed once; hidden media/animations are paused; bee observers are disposed when leaving coloring; existing offline media is reused during updates.
