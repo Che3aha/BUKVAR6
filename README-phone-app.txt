@@ -23,3 +23,9 @@ The GoatCounter setup and publishing panel has been removed. Basic visit counts 
 
 OFFLINE RETRY FIX
 Upload every file from this ZIP beside index.html and keep all existing media. Continue download now retries preparation automatically. Missing installation files are listed by filename. Open the published HTTPS site while connected, wait for deployment to finish, refresh, then download from the installed icon. Do not uninstall or clear browser data; that can remove saved progress.
+
+IN-APP UPDATE NOTICE
+When the app opens, resumes or reconnects, the browser checks for a new service worker. A downloaded release shows Dostupna je nova verzija Bukvara, with Azuriraj and Kasnije. Updating preserves locally saved progress and existing offline media. No third-party account or push permission is required for this notice. Closed apps do not receive an alert. Users first need this version installed; future releases must change VERSION in sw.js and use the same version in offline-assets.json. Publish index.html, sw.js and offline-assets.json together and wait for GitHub Pages deployment.
+
+BRIGHT ROUND OWL ICON
+Updated desktop icon uses a circular badge with transparent corners. Android maskable and Apple touch icons use an opaque turquoise background so the operating system can crop safely. New versioned icon filenames help devices discover the change. Upload all11 files. Existing installed shortcuts may take time to refresh their icons; the operating system controls the final outer shape.
