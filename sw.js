@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='2026-10-15-phone-10';
+const VERSION='2026-10-15-phone-15';
 const BASE=self.registration.scope;
 const PREFIX='bukvar-'+encodeURIComponent(new URL(BASE).pathname)+'-';
 const SHELL=PREFIX+VERSION;
@@ -12,7 +12,7 @@ const shellCache=()=>shellPromise||=(caches.open(SHELL));
 const mediaCache=()=>mediaPromise||=(caches.open(MEDIA));
 function privatePage(response){const headers=new Headers(response.headers);headers.set('Permissions-Policy','camera=(), microphone=(), geolocation=()');headers.delete('Content-Encoding');headers.delete('Content-Length');return new Response(response.body,{status:response.status,statusText:response.statusText,headers})}
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await shellCache();for(const file of CORE){const response=await fetch(abs(file),{cache:'reload'});if(!response.ok)throw Error('Missing '+file);await cache.put(abs(file),file==='index.html'?privatePage(response):response)}/* Updates wait for the user to press Update. First installation activates normally. */})()));
-self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==SHELL&&name!==MEDIA)await caches.delete(name);await self.clients.claim()})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==SHELL&&name!==MEDIA)await caches.delete(name);const media=await mediaCache();for(const request of await media.keys()){const url=new URL(request.url);if(url.href.startsWith(BASE)&&/^book-page-\d{3}\.jpg$/.test(url.href.slice(BASE.length)))await media.delete(request)}await self.clients.claim()})()));
 async function assetList(){return listPromise||=(async()=>{const response=await(await shellCache()).match(abs('offline-assets.json'));if(!response)throw Error('Missing offline-assets.json');const list=await response.json();if(list.version!==VERSION)throw Error('Offline version mismatch');return [...new Set([...CORE,...list.files])]})()}
 async function cacheKeys(cache){return new Set((await cache.keys()).map(request=>request.url))}
 async function status(){const files=await assetList(),[shellNames,mediaNames]=await Promise.all([shellCache().then(cacheKeys),mediaCache().then(cacheKeys)]);const completed=files.filter(file=>(coreSet.has(file)?shellNames:mediaNames).has(abs(file))).length;return {phase:completed===files.length?'ready':'idle',completed,total:files.length}}
