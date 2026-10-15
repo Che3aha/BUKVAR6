@@ -1,7 +1,8 @@
 {
-  "version": "2026-10-15-phone-15",
+  "version": "2026-10-15-phone-25",
   "files": [
     "airplane-image.webp",
+    "assignment-voice-v1.mp3",
     "bee-image.png",
     "bunny-image.webp",
     "cake-image.webp",
@@ -39,11 +40,25 @@
     "letter-image-library-6-src.webp",
     "letter-image-library-7-src.webp",
     "letter-image-library-8-src.webp",
+    "mame-i-bebe-poster.jpg",
+    "mame-i-bebe.mp4",
     "na-izletu-poster.jpg",
     "na-izletu.mp4",
     "patkino-pismo-poster.jpg",
     "patkino-pismo.mp4",
     "picnic-thumbnail.png",
+    "poem-1-poem-sophie-v2.mp3",
+    "poem-1-question-sophie.mp3",
+    "poem-2-poem-sophie.mp3",
+    "poem-2-question-sophie.mp3",
+    "poem-3-poem-sophie.mp3",
+    "poem-3-question-sophie.mp3",
+    "poem-4-poem-sophie.mp3",
+    "poem-4-question-sophie.mp3",
+    "poem-autumn-v2-animated.svg",
+    "poem-seasons-v2-animated.svg",
+    "poem-sun-animated.svg",
+    "poem-weekdays-animated.svg",
     "story-thumbnail.png",
     "turnip-poster.jpg",
     "turnip-story.mp4",
@@ -82,9 +97,6 @@
     "voice-31.mp3",
     "voice-32.mp3",
     "voice-33.mp3",
-    "voice-34.mp3",
-    "mame-i-bebe.mp4",
-    "mame-i-bebe-poster.jpg",
-    "assignment-voice-v1.mp3"
+    "voice-34.mp3"
   ]
 }
