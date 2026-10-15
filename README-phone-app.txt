@@ -34,3 +34,5 @@ The app title/status bar theme is restored to the original purple (#77638f). The
 
 READ ASSIGNMENTS ALOUD
 Procitaj buttons read interactive assignment instructions, quiz questions and crossword clues with the same Serbian female Sophie voice as the stories. Recordings are included in assignment-voice-v1.mp3; the app needs no device voice or microphone permission. Download all offline content again to add this new audio file. Existing cached media is reused. The update now contains12 files. Scan-only text inside original book page images is not automatically transcribed; the book editor instructions have a reading button.
+
+Removed the bulk JSON export. Individual assignment download and print buttons remain available.
