@@ -1,11 +1,5 @@
-Upload every extracted file from this update to the existing BUKVAR6 repository, replacing the matching filenames. Keep the existing media files.
-Removed the scanned book section and all original-page links. Cursive recognition, writing practice, puzzles and other interactive activities remain. Old saved progress is retained.
-Open the installed app online and accept the update. Refresh the offline download before travelling.
+Mali Bukvar installed app
 
-Added the cursive Build a word game for all 30 existing letter illustrations. Upload all update files to the same BUKVAR6 repository.
+Keep all release files in the same repository folder as index.html. Open the existing app online to receive the update. Complete the offline download in For parents, then test without Wi-Fi or mobile data. Keep the same app URL and manifest identity. Do not clear browser data: it holds progress.
 
-Parent-section paragraph sizes and alignment are consistent. Notification and offline controls now appear in standalone previews as well. Local HTML is already self-contained; notification permissions require the published app.
-
-Cursive letter picture samples replaced with blue uppercase and lowercase text using the existing handwriting font. The writing guides use the same font.
-
-Picture selection now follows the word and illustration kind, independently of the last printed-letter selection. The printed and cursive activities share the same artwork for all 30 words.
+Choose EN for English game text without sound; SR returns to Serbian with reading audio. Cyrillic exercise targets remain Serbian. See mali-bukvar-parent-guide-sr-en.docx or its PDF for the bilingual parent guide, and README-update.txt for upload steps.
