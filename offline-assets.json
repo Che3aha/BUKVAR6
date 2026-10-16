@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-16-phone-31",
+  "version": "2026-10-16-phone-37",
   "files": [
     "airplane-image.webp",
     "assignment-voice-v1.mp3",
@@ -62,6 +62,10 @@
     "picnic-thumbnail.png",
     "poem-1-poem-sophie-v2.mp3",
     "poem-1-question-sophie.mp3",
+    "poem-10-poem-sophie.mp3",
+    "poem-10-question-sophie.mp3",
+    "poem-11-poem-sophie.mp3",
+    "poem-11-question-sophie.mp3",
     "poem-2-poem-sophie.mp3",
     "poem-2-question-sophie.mp3",
     "poem-3-poem-sophie.mp3",
@@ -81,7 +85,9 @@
     "poem-autumn-v2-animated.svg",
     "poem-bathing-animated.svg",
     "poem-child-butterfly-animated.svg",
+    "poem-frog-news-animated.svg",
     "poem-gardener-animated.svg",
+    "poem-good-friend-animated.svg",
     "poem-seasons-v2-animated.svg",
     "poem-sun-animated.svg",
     "poem-weekdays-animated.svg",
