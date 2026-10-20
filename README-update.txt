@@ -1,4 +1,4 @@
-MALI BUKVAR — RELEASE 46 — 16 OCTOBER 2026
+MALI BUKVAR — RELEASE 46 — DOCUMENTATION REFRESH 17 OCTOBER 2026
 
 UPLOAD BOTH PARTS TO THE SAME EXISTING REPOSITORY
 1. Extract bukvar-content-update-part-1.zip and bukvar-content-update-part-2.zip.
@@ -23,3 +23,6 @@ Camera, microphone and location are not requested.
 
 Do not delete installed-app/browser data before updating: progress is saved on that device.
 The small index.html uses its companion assets. Upload both complete batches, not HTML alone.
+
+DOCUMENTATION REFRESH
+The landing page now contains new Serbian/English screenshots, a badge preview, feature highlights, notebook-and-pencil tips and links to open/download the parent guide PDF or Word file. The parent guide has 12 pages with current screenshots in each language.
