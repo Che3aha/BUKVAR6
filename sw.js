@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='2026-10-20-phone-49';
+const VERSION='2026-10-20-phone-51';
 const BASE=self.registration.scope;
 const PREFIX='bukvar-'+encodeURIComponent(new URL(BASE).pathname)+'-';
 const SHELL=PREFIX+VERSION;
